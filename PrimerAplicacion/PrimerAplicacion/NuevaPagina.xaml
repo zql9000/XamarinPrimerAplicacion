@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrimerAplicacion.NuevaPagina"
+             Title="NUEVA PAGINA">
+    <ContentPage.Content>
+        <Grid RowSpacing="0" ColumnSpacing="0">
+            <Image Margin="0" Grid.Row="0" Grid.Column="0" >
+                <Image.Source>
+                    <UriImageSource Uri="http://lorempixel.com/400/400/abstract/"
+    	        		CachingEnabled="False"/>
+                </Image.Source>
+            </Image>
+            <Image Margin="0" Grid.Row="0" Grid.Column="1" >
+                <Image.Source>
+                    <UriImageSource Uri="http://lorempixel.com/400/400/cats/"
+    	        		CachingEnabled="False"/>
+                </Image.Source>
+            </Image>
+            <Image Margin="0" Grid.Row="0" Grid.Column="2" >
+                <Image.Source>
+                    <UriImageSource Uri="http://lorempixel.com/400/400/sports/"
+    	        		CachingEnabled="False"/>
+                </Image.Source>
+            </Image>
+            <Image Source="http://lorempixel.com/400/400/technics/"
+                   Margin="0"
+                   Grid.Row="1" Grid.Column="0" />
+            <Image Source="http://lorempixel.com/400/400/people/"
+                   Margin="0"
+                   Grid.Row="1" Grid.Column="1" />
+            <Image Source="http://lorempixel.com/400/400/business/"
+                   Margin="0"
+                   Grid.Row="1" Grid.Column="2" />
+            <Image Source="http://lorempixel.com/400/400/city/"
+                   Margin="0"
+                   Grid.Row="2" Grid.Column="0" />
+            <Image Source="http://lorempixel.com/400/400/animals/"
+                   Margin="0"
+                   Grid.Row="2" Grid.Column="1" />
+            <Image Source="http://lorempixel.com/400/400/nature/"
+                   Margin="0"
+                   Grid.Row="2" Grid.Column="2" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
